@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff6b6b;
+  --secondary: #4ecdc4;
+  --dark: #292f36;
+  --light: #f7fff7;
+  --accent: #ffe66d;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Header clip-path animation */
+@keyframes headerFold {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 90%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+  }
+}
+
+/* Text glow animation */
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 15px rgba(255, 107, 107, 0.9);
+  }
+}
+
+/* Gradient background animation */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Floating bounce animation */
+@keyframes floatBounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-2deg);
+  }
+}
+
+.animate-headerFold {
+  animation: headerFold 8s ease-in-out infinite alternate;
+}
+
+.animate-textGlow {
+  animation: textGlow 2s ease-in-out infinite alternate;
+}
+
+.animate-gradientBG {
+  animation: gradientBG 12s ease infinite;
+}
+
+.animate-floatBounce {
+  animation: floatBounce 8s ease-in-out infinite;
+}
+
+/* Clip path for footer */
+.clip-path-footer {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 768px) {
+  .clip-path-footer {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
