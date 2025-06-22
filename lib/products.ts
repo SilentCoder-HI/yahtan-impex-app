@@ -19,44 +19,50 @@ export const categories: ProductCategory[] = [
   {
     slug: "t-shirts",
     name: "T-Shirts",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/t-shirts/t-shirt 1.jpg",
     description: "Comfortable and stylish t-shirts for everyday wear",
   },
   {
     slug: "hoodies",
     name: "Hoodies",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/hoodies/hoodie 1.jpg",
     description: "Cozy hoodies perfect for cool weather",
   },
   {
     slug: "socks",
     name: "Socks",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/socks/sock 1.jpg",
     description: "Comfortable socks with unique patterns and designs",
   },
   {
     slug: "shorts",
     name: "Shorts",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/shorts/short 1.jpg",
     description: "Lightweight shorts for warm weather and active lifestyle",
   },
   {
     slug: "sweat-shirts",
     name: "Sweat Shirts",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/sweat-shirts/sweat-shirt 1.jpg",
     description: "Classic sweatshirts with soft fabric and comfortable fit",
   },
   {
     slug: "jackets",
     name: "Jackets",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/jackets/jacket 1.jpg",
     description: "Stylish jackets for protection and fashion",
   },
   {
     slug: "trousers",
     name: "Trousers",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/products/trousers/trouser 1.jpg",
     description: "Elegant trousers for formal and casual occasions",
+  },
+  {
+    slug: "jeans",
+    name: "Jeans",
+    image: "/products/jeans/jean 1.jpg",
+    description: "Stylish jeans for formal and casual occasions",
   },
 ]
 

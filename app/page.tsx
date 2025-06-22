@@ -89,21 +89,21 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              img: "/placeholder.svg?height=400&width=600",
+              img: "/latest/main 1.jpg",
               alt: "Autumn collection",
               title: "Introducing Our Autumn Collection 2025",
               desc: "Discover the latest trends in warm and comfortable clothing perfect for the autumn season. Featuring new colors, fabrics, and styles.",
               date: "September 15, 2025",
             },
             {
-              img: "/placeholder.svg?height=400&width=600",
+              img: "/latest/main 2.jpg",
               alt: "Sustainability",
               title: "Our Commitment to Sustainability",
               desc: "Learn about our new eco-friendly initiatives and how we are reducing our environmental footprint through sustainable sourcing and production.",
               date: "August 1, 2025",
             },
             {
-              img: "/placeholder.svg?height=400&width=600",
+              img: "/latest/main 3.jpg",
               alt: "Customer event",
               title: "Join Us for Our Customer Appreciation Event",
               desc: "We're hosting a special event with exclusive discounts, giveaways, and sneak peeks at upcoming collections. Don't miss out!",

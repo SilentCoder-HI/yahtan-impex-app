@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${inter.className} ${playfair.variable} ${montserrat.variable} font-montserrat bg-gradient-to-b from-[#f7fff7cc] to-[#e4e8edcc] relative min-h-screen overflow-x-hidden`}
       >
         <div className="fixed inset-0 w-full h-full opacity-20 -z-10">
-          <img src="/placeholder.svg?height=1080&width=1920" alt="Background" className="w-full h-full object-cover" />
+          <img src="/background.jpg" alt="Background" className="w-full h-full object-cover" />
         </div>
         {children}
       </body>
